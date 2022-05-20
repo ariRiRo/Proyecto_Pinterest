@@ -92,13 +92,16 @@
 
 .dueno{
   position: absolute;
-  top: 25%;
+  top: 20%;
+  font-size: .6cm;
 }
 
 .palabras{
   position: absolute;
+  padding-right: 2%;
   top: 30%;
-  font-size:larger
+  font-size:larger;
+  text-align: justify;
 
 }
 
