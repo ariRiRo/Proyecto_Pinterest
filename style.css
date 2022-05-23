@@ -75,10 +75,10 @@
 }
 
 .hijo3{
-  background: white;
+  background: rgb(255, 255, 255);
   position: sticky;
-  right: 20px;
   top: 30px;
+  align-items: center;
 
 }
 
@@ -107,9 +107,27 @@
 
 .usuario{
   position: absolute;
-  bottom: 30%;
+  float: left;
+  bottom: 35%;
 }
 
+.nombre_seguidor_inst{
+  float: right;
+  height: 30%;
+}
+
+.boton_seguir{
+  position: absolute;
+  float:inline-end;
+  bottom: 38%;
+  right: 4%;
+}
+
+.comentarios{
+  position: absolute;
+  float:inline-end;
+  bottom: 26%;
+}
 .a{
   float: right;
 
@@ -214,12 +232,18 @@ transition: .3s ease-in-out;
 }
 
 .boton_pag2{
-  position: relative;
+  float: left;
   top: 5%;
   right: 80%;
   background-color: rgb(192, 188, 188);
   color: black;
   border-radius: 50%;
+
+}
+
+.boton_derecha_guardar{
+  position: relative;
+  float: right;
 }
 
 @media (min-width:1200px){
