@@ -110,7 +110,24 @@
   bottom: 30%;
 }
 
+.a{
+  float: right;
+
+}
+
 .boton_usuario{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  
+}
+
+.btn-secondary{
+  border-radius: 30;
+  right: 50%;
+}
+
+.boton_usuario2{
   height: 50px;
   width: 50px;
   border-radius: 50%;
